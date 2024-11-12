@@ -4,8 +4,8 @@ import { useState } from "react";
 export default function Home() {
 
   return (
-    <dev>
-      kkk
-    </dev>
+    <div>
+      kkkk
+    </div>
   );
 }
