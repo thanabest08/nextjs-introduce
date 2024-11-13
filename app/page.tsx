@@ -6,7 +6,7 @@ export default function Login() {
   const [username, setUsername] = useState('');
   const [isLoggedIn, setIsLoggedIn] = useState(false);
 
-  const handleLogin = (e) => {
+  const handleLogin = (e: { preventDefault: () => void; }) => {
     e.preventDefault();
     if (username === 's') {
       setIsLoggedIn(true);
