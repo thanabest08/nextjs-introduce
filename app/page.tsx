@@ -83,7 +83,7 @@ export default function Home() {
           <div className="flex-none">
             <div className="navbar-start">
               <div className="dropdown dropdown-end">
-                <div tabIndex="0" role="button" className="border-2 btn btn-ghost btn-square ">
+                <div tabIndex={0} role="button" className="border-2 btn btn-ghost btn-square ">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     className="h-10 w-10"
@@ -98,7 +98,7 @@ export default function Home() {
                   </svg>
                 </div>
                 <ul
-                  tabIndex="0"
+                  tabIndex={0}
                   className="menu menu-lg dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
                   <li><a href="#home">about me</a></li>
                   <li><a href="#performance">performance</a></li>
